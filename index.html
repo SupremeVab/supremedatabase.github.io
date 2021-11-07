@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Vab Db</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class= "bg" src="bgg.jpg" alt="Services png">
+
+    <div class="container">
+    <h1>Welcome to Vab Db</h1>
+    <p>Details of Record Book</p>
+
+    <p class="submitMsg">Thanks For Submitting Your Form. We are Happy to see you Coming and Joining Us.</p>
+    
+    <form action="index.php" method="post">
+        
+        <input type="number" name="snumber" id="snumber" placeholder="Enter Serial number" required>
+        <input type="date" name="date" id="date" placeholder="Enter date">
+        <input type="text" name="name" id="name" placeholder="Enter name" required>
+        <input type="phone" name="phone" id="phone" placeholder="Enter Phone number">
+        <!-- <input type="email" name="email" id="email" placeholder="Enter email"> -->
+        <input type="text" name="model" id="model" placeholder="Enter model">
+        <input type="text" name="cable" id="cable" placeholder="Enter Cables">
+        <input type="text" name="charger" id="charger" placeholder="Enter Yes or No">
+        <input type="text" name="Problem" id="Problem" placeholder="Enter Problem">
+        <!-- <input type="text" name="Solution" id="Solution" placeholder="Enter Solution">
+        <input type="text" name="amount" id="amount" placeholder="Enter AMOUNT"> -->
+        <!-- <input type="text" name="status" id="status" placeholder="Enter Current status Pending or Completed"> -->
+        <input type="date" name="deliver" id="deliver" placeholder="Deliverd On">
+        
+        <textarea name="other" id="desc" cols="30" rows="10" placeholder="Enter any other information or Feedback"></textarea>
+        <button class="btn">Submit</button>
+       <!-- <button class="btn">Reset</button>-->
+    
+    </form>
+</div>
+    <script src="index.js"></script>
+
+    
+
+</body>
+</html>
